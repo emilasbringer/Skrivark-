@@ -19,9 +19,13 @@ public class LinkedList {
      * Adds a new Node to the list. The Node is always added last. There's a special case when the list is empty
      * (first=null). Make sure to solve that properly...
      * @param newNode
+     * @return
      */
-    public void addLast(Node newNode) {
-
+    public Node addLast(Node newNode) {
+        if (first == null) {
+            first = newNode;
+        }
+        return newNode;
     }
 
     /**
