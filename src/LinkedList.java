@@ -34,7 +34,7 @@ public class LinkedList {
      * @return
      */
     public Node removeFirst() {
-        return null;
+        return new Node("Test",null);
     }
 
     /**
@@ -52,7 +52,7 @@ public class LinkedList {
      * @return
      */
     public boolean isEmpty() {
-        return size()==0;
+        return true;
     }
 
 }
